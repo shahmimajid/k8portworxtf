@@ -32,3 +32,4 @@ output "gcp_ssh_command" {
 
 output "gcp_cluster_name" {
   value = "${google_container_cluster.gcp_kubernetes.name}"
+}
